@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://bxg4g230aykup"]
+
+[ext_resource type="Texture2D" uid="uid://dm7stxjwt3gv2" path="res://icon.svg" id="1_t7a0s"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="."]
+modulate = Color(0, 0, 0, 0.337255)
+position = Vector2(632, 344)
+scale = Vector2(4.0625, 2.375)
+texture_normal = ExtResource("1_t7a0s")
+action = "Jump"
